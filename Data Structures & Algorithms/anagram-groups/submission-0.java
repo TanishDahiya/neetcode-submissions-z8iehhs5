@@ -11,7 +11,7 @@ class Solution {
 
             if(!map.containsKey(key)) map.put(key,new ArrayList<String>()); //checking in map
             //map.putIfAbsent(key, new ArrayList<>()); - we can also write cleaner approach
-            map.get(key).add(i);
+            map.get(key).add(i); // add used because adding to the list
         }
 
         return new ArrayList<>(map.values());
