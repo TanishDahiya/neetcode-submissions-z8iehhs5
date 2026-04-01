@@ -1,1 +1,2 @@
 System.arraycopy(nums, 0, ans, 0, n);
+Arrays.equals(s1,s2);
