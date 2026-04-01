@@ -10,7 +10,7 @@ class Solution {
                 ele = nums[i];
                 count = 1;
             } 
-            if(nums[i] == ele){
+            else if (nums[i] == ele){
                 count++;
             }else{
                 count--;
