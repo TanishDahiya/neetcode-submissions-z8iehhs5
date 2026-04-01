@@ -1,0 +1,1 @@
+System.arraycopy(nums, 0, ans, 0, n);
