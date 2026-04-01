@@ -2,3 +2,4 @@ System.arraycopy(nums, 0, ans, 0, n);
 Arrays.equals(s1,s2);
 return new int[]{map.get(compliment),i};
   return new int[]{-1,-1}
+return new ArrayList<>(map.values());
