@@ -3,3 +3,6 @@ Arrays.equals(s1,s2);
 return new int[]{map.get(compliment),i};
   return new int[]{-1,-1}
 return new ArrayList<>(map.values());
+for(Map.Entry<Integer, Integer> entry : map.entrySet()){
+    if(entry.getValue() > n/2) return entry.getKey();
+}
