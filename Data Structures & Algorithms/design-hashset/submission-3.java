@@ -32,9 +32,9 @@ class MyHashSet {
         List<Integer> child = parent.get(hash); 
 
         if(child == null) {
-            List<Integer> list = new LinkedList<>();
-            list.add(key);
-            parent.set(hash, list);
+            child = new LinkedList<>();
+            child.add(key);
+            parent.set(hash, child);
         } else {
             if(!child.contains(key)) child.add(key);
         }
